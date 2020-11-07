@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>https://TCRsixG.github.io/post/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Nov 2020 17:39:23 +0800</lastBuildDate><atom:link href="https://TCRsixG.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>M10c</title>
+      <link>https://TCRsixG.github.io/post/m10c/</link>
+      <pubDate>Sat, 07 Nov 2020 17:39:23 +0800</pubDate>
+      
+      <guid>https://TCRsixG.github.io/post/m10c/</guid>
+      <description>組態 在config.toml文件中，在中定義以下變量params：
+ author：作者姓名 description：作者簡介 avatar：包含作者頭像圖像的文件的路徑 menu_item_separator：每個菜單項之間的分隔符。允許HTML（默認：“-”）  要添加菜單項，請在中添加以下行menu：
+[[menu.main]] identifier = &amp;quot;tags&amp;quot; name = &amp;quot;Tags&amp;quot; url = &amp;quot;/tags/&amp;quot; 閱讀Hugo文檔以獲取有關菜單的更多信息
+要添加社交鏈接，請在中添加以下行params：
+[[params.social]] name = &amp;quot;github&amp;quot; url = &amp;quot;https://github.com/vaga&amp;quot; 要更改主題顏色，請在中添加以下行params：
+[params.style] darkestColor = &amp;quot;#d35050&amp;quot; darkColor = &amp;quot;#212121&amp;quot; lightColor = &amp;quot;#f5e3e0&amp;quot; lightestColor = &amp;quot;#f5f5f5&amp;quot; primaryColor = &amp;quot;#fff&amp;quot; 如果需要以上主題顏色，則可以查看exampleSite / config.toml文件。
+造型 要使用SCSS覆蓋樣式，添加一個名為_extra.scss來{your site directory}/assets/css/
+注意：Hugo版本有兩個版本，hugo和hugo_extended。您需要hugo_extended自動編譯您的scss。</description>
+    </item>
+    
+    <item>
+      <title>Myfirstblog</title>
+      <link>https://TCRsixG.github.io/post/myfirstblog/</link>
+      <pubDate>Sat, 07 Nov 2020 17:27:58 +0800</pubDate>
+      
+      <guid>https://TCRsixG.github.io/post/myfirstblog/</guid>
+      <description>aa
+修改</description>
+    </item>
+    
+  </channel>
+</rss>
